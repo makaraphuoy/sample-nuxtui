@@ -9,7 +9,6 @@
             :block="block"
             :size="size"
             variant="outline"
-
   ></UButton>
 </template>
 

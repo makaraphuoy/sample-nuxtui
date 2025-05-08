@@ -11,6 +11,7 @@ export const useSearch = defineStore('seach',()=>{
     data.value = resData;
     isSearch.value = true;
   };
+  
   const reset = () => {
     data.value = null;
     isSearch.value = false;

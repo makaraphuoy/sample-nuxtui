@@ -5,28 +5,11 @@
     </NuxtLink>
     <h1 class="font-bold text-center text-primary">ABA Mini-App</h1>
     <div class="w-full flex justify-center p-2">
-      <ClientOnly v-if="!colorMode?.forced">
-        <UButton
-            :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
-            color="neutral"
-            variant="ghost"
-            @click="isDark = !isDark"
-        />
-      </ClientOnly>
+        <LangSwitcher/>
     </div>
 </header>
 
 </template>
 <script setup lang="ts">
-  const colorMode = useColorMode()
-    
-  const isDark = computed({
-    get() {
-      return colorMode.value === 'dark'
-    },
-    set() {
-      colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
-    }
-  })
   const useSearchResult = useSearch();
 </script>
