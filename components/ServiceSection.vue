@@ -1,10 +1,10 @@
 <!-- components/ServicesSection.vue -->
 <template>
-  <section id="proposal" class="min-h-screen py-24 bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-950">
+  <section id="tech" class="min-h-screen py-24 bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-950">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
         <h2 ref="headerRef" class="text-3xl md:text-5xl font-bold text-indigo-900 dark:text-slate-200 mb-4">
-          Our Proposal
+          Our Tech-Stack
         </h2>
         <p class="text-xl  text-gray-600 max-w-2xl mx-auto dark:text-slate-300">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam voluptatum iure ipsum laborum ipsam?

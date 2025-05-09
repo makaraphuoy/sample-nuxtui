@@ -10,6 +10,9 @@
 
 <script setup lang="ts">
   useHead({
+    htmlAttrs:{
+      lang: 'en'
+    },
     title: 'ABA Mini-App',
     meta: [
     {

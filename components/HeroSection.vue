@@ -1,24 +1,24 @@
 <template>
   <div
     ref="heroRef"
-    class="min-h-screen flex flex-col md:flex-row items-center justify-center p-8 md:p-16 overflow-hidden bg-gradient-to-br  bg-[length:200%_200%]"
+    class="min-h-screen flex flex-col md:flex-row items-center justify-center p-8 md:p-16 overflow-hidden from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-950"
   >
-    <div class="flex-1 max-w-2xl">
+    <div class="flex-1 max-w-2xl from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-950">
       <h1
         ref="headingRef"
-        class="text-4xl md:text-6xl font-bold  leading-tight mb-6"
+        class="text-xl md:text-5xl font-bold  leading-tight mb-6"
       >
-        Build Interactive UI<br />
+      Craft Interactive Interfaces<br />
         <span class=" bg-clip-text bg-gradient-to-r text-orange-700">
-          With Powerful Animations
+          Using Cutting-Edge Animations
         </span>
       </h1>
 
       <p
         ref="subheadingRef"
-        class="text-xl md:text-2xl text-gray-400 mb-8 max-w-lg"
+        class="text-xl text-gray-400 mb-8 max-w-lg"
       >
-        Create stunning user experiences with smooth transitions and interactive elements that bring your applications to life.
+      Deliver engaging user experiences by building dynamic UIs with seamless transitions and responsive interactions—hallmarks of a skilled developer.
       </p>
 
       <div ref="buttonRef" class="flex flex-col sm:flex-row gap-4">

@@ -21,7 +21,7 @@
 </template>
 
 <script setup lang="ts">
-  const list = ['home','proposal','about','contact'];
+  const list = ['home','tech','about','contact'];
   const ui ={
     base : 'outline-none ring-none border-none'
   }
